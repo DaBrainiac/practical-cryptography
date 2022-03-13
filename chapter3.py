@@ -10,4 +10,5 @@ aesCipher = Cipher(algorithms.AES(key),
 aesEncryptor = aesCipher.encryptor()
 aesDecryptor = aesCipher.decryptor()
 
-nist_kats = []
+nist_kats = [('f34481ec3cc627bacd5dc3fb08f273e6',
+              '0336763e966d92595a567cc9ce537f5e')]
